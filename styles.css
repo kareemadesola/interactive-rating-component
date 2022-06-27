@@ -106,7 +106,7 @@ body {
 	background-color: var(--light-grey);
 }
 
-.list__change {
+.card .list__change {
 	background-color: var(--orange);
 }
 

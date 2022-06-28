@@ -10,9 +10,9 @@ buttons.forEach((button) => {
   button.addEventListener("click", (e) => {
     buttons.forEach((button) => {
       button.classList.remove("list__change");
-      e.target.classList.add("list__change");
-      value = e.target.textContent;
     });
+    e.target.classList.add("list__change");
+    value = e.target.textContent;
   });
 });
 
